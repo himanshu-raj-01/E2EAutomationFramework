@@ -1,7 +1,4 @@
 target/
-logs/
-reports/
-screenshots/
 test-output/
 *.log
 *.class
