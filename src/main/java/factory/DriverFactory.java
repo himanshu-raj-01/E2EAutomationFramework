@@ -25,7 +25,7 @@ public class DriverFactory {
 
                 ChromeOptions options = new ChromeOptions();
 
-                // ===== DISABLE PASSWORD MANAGER & BREACH DETECTION =====
+                // DISABLE PASSWORD MANAGER & BREACH DETECTION
                 Map<String, Object> prefs = new HashMap<>();
 
                 prefs.put("credentials_enable_service", false);
